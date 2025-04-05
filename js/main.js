@@ -103,12 +103,18 @@ loadNameData().then(() => {
 document.querySelectorAll('.egg-choice').forEach(egg => {
   egg.addEventListener('click', () => {
     selectedEgg = egg.dataset.egg;
-    
-    // Reload shell-specific data for this egg
+
+    // Update header icon to match selected egg
+    const headerIcon = document.getElementById('eggIconHeader');
+    if (headerIcon) {
+      headerIcon.src = `img/eggs/${selectedEgg}.svg`;
+    }
+
+    // Reload shell-specific data
     loadNameData(selectedEgg).then(() => {
       generateName();
 
-      // Close the modal (if using Bootstrap 5)
+      // Close modal (if Bootstrap 5)
       const modal = bootstrap.Modal.getInstance(document.getElementById('eggModal'));
       modal.hide();
     });

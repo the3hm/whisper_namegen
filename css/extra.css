@@ -442,3 +442,46 @@ div#shellName {
   transform: scale(1.1);
   border-color: #ffc107;
 }
+
+.modal-header {
+  border-bottom: none!important;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  width: 64px;
+  height: 64px;
+}
+
+.icon-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.icon-button img:hover {
+  transform: scale(1.1);
+}
+
+
+.icon-label {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #66fcf1;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.icon-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 72px;
+}
+
