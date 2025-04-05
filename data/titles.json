@@ -1,0 +1,20 @@
+{
+        "titleIntros": [
+            "the", "of the", "Bearer of", "Seeker of", "Caller of", "Warden of", "Walker of", "Shepherd of", "Binder of", "Harbinger of",
+            "Harvester of", "Speaker of", "Servant of", "Witness of", "Voice of", "Mouth of", "Echo of", "Spawn of", "Thread of", "Crown of",
+            "Drinker of", "Child of", "Heir to", "Herald of", "Shroud of", "Tide of", "Watcher of", "Tamer of", "Breaker of", "Guardian of",
+            "Vessel of", "Whisper of", "Thorn of", "Scribe of", "Flame of", "Gaze of", "Fang of", "Dreamer of", "Scar of", "Knot of"    
+        ],
+        "titleAdjectives": [
+            "Hollow", "Scarred", "Coiled", "Bloodless", "Pale", "Fractured", "Gutted", "Crimson", "Ashen", "Twisted",
+            "Silent", "Sundered", "Lightless", "Tallow", "Shattered",
+            "Veiled", "Wretched", "Broken", "Ebon", "Gnawed", "Flayed", "Scalded", "Seared", "Burnt", "Mourning",
+            "Unfurling", "Forsaken", "Cursed", "Seeping", "Lurking", "Starless", "Nameless", "Rootless", "Bleeding", "Unseen",
+            "Ancient", "Mute", "Shuddering", "Grinning", "Withered", "Hissing", "Cracked", "Whispering", "Blackened", "Encoiled", "Nestled"  
+        ],
+        "titleNouns": [
+            "Song", "Scar", "Glyph", "Mouth", "Egg", "Womb", "Flesh", "Tithe", "Bloom", "Chant", "Rite", "Coil", "Nest", "Thorn", "Bell",
+            "Grin", "Flame", "Echo", "Crown", "Writ", "Path", "Wound", "Drum", "Vein", "Spine", "Circuit", "Cradle", "Shiver", "Thread", "Pit",
+            "Mask", "Shell", "Tomb", "Gloom", "Silence", "Loop", "Mark", "Ruin", "Chime", "Boundless", "Voice", "Fang", "Skein", "Knell", "Signal" 
+        ]
+}

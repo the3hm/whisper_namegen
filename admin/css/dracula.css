@@ -1,0 +1,348 @@
+body,
+.content-wrapper,
+.sidebar,
+.main-header,
+.modal-content {
+  background-color: #282a36 !important;
+  color: #f8f8f2 !important;
+}
+
+.navbar,
+.main-sidebar {
+  background-color: #44475a !important;
+}
+
+.nav-sidebar .nav-link.active {
+  background-color: #6272a4 !important;
+  color: #f8f8f2 !important;
+}
+
+.table,
+.card {
+  background-color: #3b3b4f !important;
+  color: #f8f8f2 !important;
+}
+
+.btn-primary {
+  background-color: #bd93f9 !important;
+  border-color: #bd93f9 !important;
+}
+
+.btn-danger {
+  background-color: #ff5555 !important;
+  border-color: #ff5555 !important;
+}
+
+.toast,
+.toast-body,
+.toast-header {
+  background-color: #44475a !important;
+  color: #f8f8f2 !important;
+}
+
+.navbar, .main-sidebar {
+  background-color: rgba(0,0,0,.4) !important;
+}
+
+.main-footer {
+  background-color: rgba(0,0,0,.4);
+  border-top: none!important;
+}
+
+/* DataTables wrapper and headers */
+table.dataTable {
+  background-color: #3b3b4f !important;
+  color: #f8f8f2 !important;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Table header */
+table.dataTable thead {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #f8f8f2 !important;
+  border-bottom: 2px solid #6272a4;
+}
+
+table.dataTable thead th {
+  border-bottom: none;
+  padding: 10px;
+  font-weight: 600;
+}
+
+/* Table rows */
+table.dataTable tbody tr {
+  background-color: #3b3b4f !important;
+  transition: background-color 0.2s;
+}
+
+table.dataTable tbody tr:hover {
+  background-color: rgba(98, 114, 164, 0.2) !important;
+}
+
+/* Table cells */
+table.dataTable tbody td {
+  padding: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Search input and pagination */
+.dataTables_wrapper .dataTables_filter input {
+  background-color: #282a36;
+  color: #f8f8f2;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.dataTables_wrapper .dataTables_length select,
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  background-color: #282a36 !important;
+  color: #f8f8f2 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 4px 8px;
+  margin: 0 2px;
+  border-radius: 4px;
+}
+
+/* Pagination active button */
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  background-color: #6272a4 !important;
+  color: #f8f8f2 !important;
+}
+
+/* Info text */
+.dataTables_wrapper .dataTables_info {
+  color: #f8f8f2;
+}
+
+/* Table borders */
+table.dataTable.no-footer {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+table.dataTable tbody tr:hover td {
+  background-color: rgba(98, 114, 164, 0.15) !important;
+}
+
+table.dataTable.stripe tbody tr.odd {
+  background-color: rgba(255, 255, 255, 0.02) !important;
+}
+
+/* Flat, Dracula-style form fields */
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #f8f8f2;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-clip: padding-box;
+
+  border: none;
+  border-bottom: 2px solid #6272a4;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0;
+  box-shadow: none;
+
+  transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.form-control:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-bottom-color: #bd93f9;
+  border-right-color: rgba(255, 255, 255, 0.2);
+  outline: none;
+  box-shadow: none;
+}
+
+/* Table row cells updated for Dracula boxy material feel */
+table.dataTable tbody td {
+  padding: 10px;
+  background-color: #3b3b4f !important;
+  color: #f8f8f2 !important;
+  border: none;
+  border-bottom: 0px solid #6272a4;
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Remove border radius globally for DataTables and forms */
+input.form-control,
+textarea.form-control,
+select.form-control,
+button {
+  border-radius: 0 !important;
+}
+
+.table-bordered {
+  border: 0px solid #dee2e6 !important; 
+}
+
+.table-bordered td, .table-bordered th {
+border: 0px solid #dee2e6 !important;
+}
+
+.nav-tabs {
+  border-bottom: 4px solid rgba(0, 0, 0, .2) !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #ced1d3;
+  background-color: rgba(0, 0, 0, .4)!important;
+  border-color: rgba(0,0,0,.4) !important;
+}
+
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  border: 0px solid transparent !important;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+
+a {
+  color: #b486d6 !important;
+}
+
+.btn-outline-primary {
+  color: #b486d6 !important;
+  border-color: #b486d6 !important;
+}
+
+.btn-outline-primary {
+  color: #b486d6 !important;
+  border-color: #b486d6 !important;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  box-shadow: none !important;
+  border-width: 2px !important;
+  border-bottom-width: 4px !important;
+  border-right-width: 2px !important;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: rgba(189, 147, 249, 0.1) !important;
+  color: #bd93f9 !important;
+  border-color: #bd93f9 !important;
+}
+
+.btn-outline-primary:active {
+  background-color: rgba(189, 147, 249, 0.2) !important;
+  border-color: #bd93f9 !important;
+  color: #f8f8f2 !important;
+}
+
+/* Fix DataTables pagination button hover for Dracula Material theme */
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background: rgba(189, 147, 249, 0.2) !important; /* Soft purple highlight */
+  color: #f8f8f2 !important;
+  border: 1px solid #bd93f9 !important;
+  box-shadow: none !important;
+}
+
+/* Optional: Remove weird gradient or transition effects */
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  background-image: none !important;
+  background-color: #282a36 !important;
+  color: #f8f8f2 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+/* Fix DataTables search input Dracula focus style */
+.dataTables_wrapper .dataTables_filter input:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid #bd93f9 !important;
+  box-shadow: none !important;
+  outline: none !important;
+  color: #f8f8f2;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+/* Dracula-style input for inline editing */
+.inline-input {
+  color: #f8f8f2 !important;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border: none;
+  border-bottom: 2px solid #6272a4 !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  outline: none;
+  box-shadow: none;
+  transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.inline-input:focus {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  border-bottom-color: #bd93f9 !important;
+  border-right-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Animation keyframes for sliding in input */
+@keyframes slideInInlineInput {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Animated Dracula-style inline input */
+.inline-input {
+  color: #f8f8f2 !important;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border: none;
+  border-bottom: 2px solid #6272a4 !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  outline: none;
+  box-shadow: none;
+  width: 100%;
+  animation: slideInInlineInput 0.2s ease-out;
+  transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.inline-input:focus {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  border-bottom-color: #bd93f9 !important;
+  border-right-color: rgba(255, 255, 255, 0.2);
+}
+
+.sort-filter:focus {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-bottom-color: #bd93f9;
+}
+
+.sort-filter {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #f8f8f2;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  /* border-bottom: 2px solid #6272a4; */
+  /* border-right: 1px solid rgba(255, 255, 255, 0.1); */
+  padding: 4px 10px;
+  font-size: 0.9rem;
+  border: 0px;
+  height: 32px;
+}
+
+/* Dracula-style expanded dropdown menu */
+select.sort-filter:focus {
+  background-color: rgba(40, 42, 54, 0.95); /* dark bg */
+  color: #f8f8f2; /* light text */
+  outline: none;
+  border-color: #bd93f9; /* Dracula purple */
+}
+
+/* Force dropdown option styling */
+select.sort-filter option {
+  background-color: #282a36; /* same as Dracula body bg */
+  color: #f8f8f2;
+}

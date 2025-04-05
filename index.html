@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Whisperborn Name Generator</title>
+  <link rel="stylesheet" href="css/extra.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <!-- Navigation (100% width, top of page) -->
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#">Name-Gen</a></li>
+      <li><a href="#">Ssi-Ruuk</a></li>
+      <li><a href="#">Religion</a></li>
+      <li><a href="#">Locations</a></li>
+      <li><a href="#">Technology</a></li>
+      <li><a href="#">Military</a></li>
+      <li><a href="#">Navy</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Wrapper (sidebar + main content) -->
+  <div class="wrapper d-flex">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h4 id="sidebarToggle" class="sidebar-toggle">☰ <span class="sidebar-label">Menu</span></h4>
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a href="#" class="nav-link" data-toggle="modal" data-target="#bbcodeModal">BBCode Output</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content flex-grow-1">
+      <h1>Whisperborn Name Generator</h1>
+
+      <div class="content-wrapper">
+        <div class="name-generator">
+          <!-- Name blocks -->
+          <div class="name-block" id="shellName"></div>
+          <div class="description"><b>The Shell-Name</b> is the physical or ceremonial identity of a Whisperborn.</div>
+
+          <div class="name-block" id="scarName"></div>
+          <div class="description"><b>The Scar-Name</b> glyph-chain reflects pain, legacy, or ordeal.</div>
+
+          <div class="name-block" id="soulName"></div>
+          <div class="description"><b>The Soul-Name</b> is a more indepth glyph-chain that symbolizes a being’s internal truth.</div>
+
+          <div class="name-block" id="songName"></div>
+          <div class="description"><b>The Song-Name</b> is the prophetic title given in void-lit visions or rites of passage.</div>
+
+          <button onclick="generateName()">Generate New Name</button>
+        </div>
+
+        <!-- Portrait -->
+        <div class="portrait-container">
+          <div class="portrait-frame">
+            <img src="img/namegen_portrait_1.png" class="portrait-image base">
+            <img src="img/namegen_portrait_2.png" class="portrait-image hover">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer (100% width) -->
+  <footer class="main-footer">
+    <div class="footer-content">
+      <span>&copy; Tefka</span>
+      <a href="https://www.starwarsrp.net" target="_blank">
+        <img src="img/starwarsrp_logo.png" class="footer-logo">
+      </a>
+    </div>
+  </footer>
+
+ <!-- BBCode Modal -->
+<div class="modal fade" id="bbcodeModal" tabindex="-1" role="dialog" aria-labelledby="bbcodeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bbcodeModalLabel">BBCode Output</h5>
+        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <textarea id="bbcodeOutput" class="form-control mb-3" rows="15" readonly></textarea>
+        <button class="btn btn-info" onclick="copyBBCode()">Copy to Clipboard</button>
+        <button class="btn btn-secondary" onclick="previewBBCode()">Preview</button>
+        <div id="bbcodePreview" class="mt-4 p-3 border border-info bg-black" style="display: none;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/bbcodeGenerator.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/sidebar.js"></script>
+
+</body>
+</html>

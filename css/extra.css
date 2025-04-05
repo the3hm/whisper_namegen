@@ -1,0 +1,395 @@
+
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: linear-gradient(to bottom, #0b0c10, #1f2833);
+color: #c5c6c7;
+display: flex;
+flex-direction: column;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #66fcf1;
+  text-shadow: 0 0 10px #45a29e;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.name-block {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #45a29e33;
+  padding: 15px 25px;
+  margin: 10px 0 2px 0;
+  border-radius: 8px;
+  font-size: 1.2em;
+  width: 90%;
+  max-width: 1500px;
+  box-shadow: 0 0 12px #1f2833;
+}
+
+.name-label {
+  font-weight: bold;
+  color: #ffffff;
+  display: block;
+  font-size: 1.3em;
+  margin-bottom: 6px;
+}
+
+.description {
+  font-size: 0.85em;
+  font-style: italic;
+  color: #9faab3;
+  margin-bottom: 20px;
+  max-width: 1500px;
+  text-align: left;
+}
+
+.description b {
+  color: #66fcf1;
+  font-weight: bold;
+}
+
+.name-generator {
+max-width: 600px;
+flex: 1;
+}
+
+.portrait-container {
+flex: 0 0 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+}
+
+.portrait-frame {
+  position: relative;
+  width: 300px;
+  border: 3px solid #66fcf1;
+  border-radius: 10px;
+  padding: 5px;
+  background: radial-gradient(circle, #1f2833, #0b0c10);
+  box-shadow: 0 0 20px #66fcf1, inset 0 0 10px #45a29e;
+  overflow: hidden;
+  height: 500px;
+}
+
+.portrait-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.5s ease;
+  border-radius: 8px;
+}
+
+.portrait-image.base {
+  opacity: 1;
+  z-index: 1;
+}
+
+.portrait-image.hover {
+  opacity: 0;
+  z-index: 2;
+}
+
+.portrait-frame:hover .portrait-image.hover {
+  opacity: 1;
+}
+
+.portrait-frame:hover .portrait-image.base {
+  opacity: 0;
+}
+
+
+button {
+  background: #45a29e;
+  color: #0b0c10;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background: #66fcf1;
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  .name-block {
+    font-size: 1em;
+  }
+}
+
+.main-nav {
+    position: sticky;
+    top: 0;
+    background: #0b0c10;
+    z-index: 1000;
+    width: 100%;
+    padding: 12px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #45a29e33;
+    }
+
+    .main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+
+    .main-nav li {
+    display: inline;
+    }
+
+    .main-nav a {
+    text-decoration: none;
+    color: #66fcf1;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background 0.2s ease, color 0.2s ease;
+    }
+
+    .main-nav a:hover {
+    background-color: #45a29e33;
+    color: #ffffff;
+    }
+
+    /* Footer styles */
+.main-footer {
+  width: 100%;
+  background-color: #0b0c10;
+  border-top: 1px solid #45a29e33;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #9faab3;
+  font-size: 0.85em;
+}
+
+.footer-logo {
+  height: 30px;
+  transition: opacity 0.3s ease;
+}
+
+.footer-logo:hover {
+  opacity: 0.8;
+}
+    
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  background-color: #0b0c10;
+  padding: 20px 10px;
+  z-index: 1050;
+}
+
+.sidebar h4 {
+  color: #66fcf1;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.sidebar .nav-link {
+  color: #c5c6c7;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #45a29e33;
+  color: #ffffff;
+}
+
+.name-value {
+  color: #ffffff;
+}
+
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #0b0c10;
+  padding: 20px 10px;
+  flex-shrink: 0;
+}
+
+
+
+.content-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  flex: 1;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .main-content {
+    flex-grow: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 20px 40px;
+  }
+  
+  .main-content h1 {
+    text-align: center;
+  }
+  
+  #bbcodePreview ul {
+    margin-left: 20px;
+    list-style-type: disc;
+  }
+  
+  #bbcodePreview a {
+    color: #66fcf1;
+    text-decoration: underline;
+  }
+  
+  #bbcodePreview img {
+    max-width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+  }
+
+  /* Scrollbar base styling */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+  background: #0b0c10; /* matches your darkest background */
+}
+
+/* Scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,.1);; /* soft teal blue */
+  border-radius: 10px;
+  border: 2px solid #0b0c10;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,.1) #0b0c10;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #0b0c10;
+  padding: 20px 10px;
+  transition: width 0.3s ease, padding 0.3s ease;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  overflow-x: hidden;
+}
+
+.sidebar.collapsed {
+  width: 60px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow: hidden;
+}
+
+/* Hide "Menu" label when collapsed */
+.sidebar.collapsed .sidebar-label {
+  display: none;
+}
+
+.sidebar-toggle {
+  cursor: pointer;
+}
+
+.sidebar.collapsed h4 {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.sidebar.collapsed .nav-link {
+  text-align: center;
+  font-size: 0;
+  padding: 8px 0;
+}
+
+.sidebar.collapsed .nav-link::before {
+  content: "🔗";
+  font-size: 1.2em;
+}
+
+.tab-pane {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.inline-text {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  padding: 4px 8px;
+}
+
+.inline-input {
+  width: 100%;
+}
+
+div#songName {
+  height: 120px;
+}
+
+div#shellName {
+  height: 100px;
+}

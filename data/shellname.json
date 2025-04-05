@@ -1,0 +1,17 @@
+{
+    "prefixes": [
+        "V", "Th", "Shr", "Gr", "Bh", "Dr", "Xh", "Zh", "Kh", "Sk", "Ql", "Zr", "Br", "M", "N", "Uz", "Ph", "Yl", "Or", "Gl",
+        "Kr", "Lh", "Tz", "Dzh", "Rk", "Fr", "Ch", "Gh", "Ny", "Sl", "Nr", "Wh", "Sh", "Zk", "Xr", "Yhr", "Gn", "Pl", "Hk", "Vh",
+        "Orr", "Vr", "Khl", "Skr", "Vrn", "Ng", "Cl", "Zhl", "B", "Ta", "K", "R"    
+    ],
+    "cores": [
+        "u", "o", "a", "e", "i", "ae", "uul", "or", "oz", "azz", "eth", "uth", "okk", "urr", "inn", "ahl", "arn", "irr", "alz", "esh",
+        "enz", "uhr", "iox", "ezz", "omm", "izh", "egg", "aal", "yn", "orr", "ogg", "ekk", "azr", "iir", "urz", "irn", "ehn", "aalz", "ulk", "ogh",
+        "aeg", "ozh", "eul", "ahm", "aalg", "yth", "avh", "elz", "oun", "irq" 
+    ],
+    "suffixes": [
+        "n", "k", "th", "kk", "zz", "sh", "x", "g", "m", "d", "r", "kh", "neth", "zoth", "makk", "lur", "veth", "noch", "rak", "sarr",
+        "vash", "gorn", "zun", "roth", "dakk", "mol", "shar", "lor", "grim", "nurr", "zarn", "zek", "morr", "zul", "dreg", "qash", "zhur", "skarn", "grukh", "thol",
+        "vek", "rul", "zokk", "doth", "rakh", "ghaz", "nohk", "tarn", "hess", "von"
+    ]
+}
