@@ -1,0 +1,6 @@
+{
+    "prefixes": ["zel", "sha", "tir"],
+    "cores": ["quon", "vex", "mir"],
+    "suffixes": ["yn", "es", "or"]
+  }
+  
