@@ -1,0 +1,13 @@
+{
+    "prefixes": ["bli", "cro", "ven"],
+    "cores": ["zar", "rax", "gol"],
+    "suffixes": ["eth", "usk", "ar"],
+    "scarVerbs": ["tainted", "corrupted"],
+    "scarConnectors": ["by", "through"],
+    "scarNouns": ["plague", "rot"],
+    "soulWords": ["waste", "blight", "spore"],
+    "songSubjects": ["the broken kin", "the rot-marked"],
+    "songActions": ["spreads", "crawls"],
+    "songObjects": ["beneath blight", "into marrow"]
+  }
+  

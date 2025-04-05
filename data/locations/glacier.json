@@ -1,0 +1,13 @@
+{
+    "prefixes": ["glac", "froz", "cry"],
+    "cores": ["ven", "lor", "isk"],
+    "suffixes": ["in", "eth", "ar"],
+    "scarVerbs": ["frozen", "shattered"],
+    "scarConnectors": ["under", "by"],
+    "scarNouns": ["ice", "frost"],
+    "soulWords": ["chill", "shard", "still"],
+    "songSubjects": ["the frost-walker", "the silent one"],
+    "songActions": ["glides", "shivers"],
+    "songObjects": ["across white", "beneath ice"]
+  }
+  

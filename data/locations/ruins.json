@@ -1,0 +1,13 @@
+{
+    "prefixes": ["vek", "mor", "der"],
+    "cores": ["ash", "lun", "kar"],
+    "suffixes": ["eth", "or", "an"],
+    "scarVerbs": ["forgotten", "crumbled"],
+    "scarConnectors": ["beneath", "amid"],
+    "scarNouns": ["stone", "time"],
+    "soulWords": ["dust", "echo", "ghost"],
+    "songSubjects": ["the remnant", "the fallen one"],
+    "songActions": ["whispers", "waits"],
+    "songObjects": ["in shadowed halls", "through broken arches"]
+  }
+  

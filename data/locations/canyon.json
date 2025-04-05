@@ -1,0 +1,13 @@
+{
+    "prefixes": ["zor", "kan", "vek"],
+    "cores": ["ran", "tor", "ruk"],
+    "suffixes": ["ul", "in", "eth"],
+    "scarVerbs": ["split", "hollowed"],
+    "scarConnectors": ["by", "within"],
+    "scarNouns": ["echo", "cleft"],
+    "soulWords": ["dust", "wind", "stone"],
+    "songSubjects": ["the chasm-born", "the wind-rider"],
+    "songActions": ["howls", "stirs"],
+    "songObjects": ["between walls", "in the depths"]
+  }
+  

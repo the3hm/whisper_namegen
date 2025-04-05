@@ -1,0 +1,13 @@
+{
+    "prefixes": ["mur", "fen", "zu"],
+    "cores": ["lak", "gur", "vor"],
+    "suffixes": ["ok", "eth", "um"],
+    "scarVerbs": ["sank", "rotted"],
+    "scarConnectors": ["in", "beneath"],
+    "scarNouns": ["mire", "mud"],
+    "soulWords": ["rot", "mist", "reeds"],
+    "songSubjects": ["the bog-born", "the sunken"],
+    "songActions": ["bubbles", "lurks"],
+    "songObjects": ["in the muck", "through veils"]
+  }
+  

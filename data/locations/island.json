@@ -1,0 +1,13 @@
+{
+    "prefixes": ["nai", "cor", "sol"],
+    "cores": ["ven", "tal", "rik"],
+    "suffixes": ["is", "os", "an"],
+    "scarVerbs": ["adrift", "isolated"],
+    "scarConnectors": ["on", "within"],
+    "scarNouns": ["waves", "reef"],
+    "soulWords": ["sand", "foam", "sky"],
+    "songSubjects": ["the castaway", "the lone one"],
+    "songActions": ["rests", "waits"],
+    "songObjects": ["on the tide", "under open sky"]
+  }
+  

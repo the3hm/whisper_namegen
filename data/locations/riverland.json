@@ -1,0 +1,13 @@
+{
+    "prefixes": ["riv", "thal", "lun"],
+    "cores": ["dar", "vel", "rin"],
+    "suffixes": ["el", "ar", "is"],
+    "scarVerbs": ["cut", "carried"],
+    "scarConnectors": ["along", "by"],
+    "scarNouns": ["currents", "stones"],
+    "soulWords": ["flow", "ripple", "reed"],
+    "songSubjects": ["the current-child", "the bank-walker"],
+    "songActions": ["moves", "sleeps"],
+    "songObjects": ["with the stream", "by still pools"]
+  }
+  

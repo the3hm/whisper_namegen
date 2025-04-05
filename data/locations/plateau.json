@@ -1,0 +1,13 @@
+{
+    "prefixes": ["sta", "zen", "kar"],
+    "cores": ["ron", "vek", "tal"],
+    "suffixes": ["in", "or", "us"],
+    "scarVerbs": ["weathered", "witnessed"],
+    "scarConnectors": ["above", "upon"],
+    "scarNouns": ["wind", "sun"],
+    "soulWords": ["height", "echo", "solitude"],
+    "songSubjects": ["the high one", "the skyseer"],
+    "songActions": ["observes", "meditates"],
+    "songObjects": ["on distant lands", "from the height"]
+  }
+  

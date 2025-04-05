@@ -1,0 +1,13 @@
+{
+    "prefixes": ["sol", "zar", "dry"],
+    "cores": ["rek", "tan", "mor"],
+    "suffixes": ["un", "eth", "az"],
+    "scarVerbs": ["parched", "scorched"],
+    "scarConnectors": ["under", "within"],
+    "scarNouns": ["sun", "sand"],
+    "soulWords": ["dune", "mirage", "crack"],
+    "songSubjects": ["the thirst-born", "the sun-walker"],
+    "songActions": ["drifts", "waits"],
+    "songObjects": ["amid heat", "in endless horizon"]
+  }
+  

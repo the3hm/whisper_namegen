@@ -1,0 +1,13 @@
+{
+    "prefixes": ["zel", "mar", "lur"],
+    "cores": ["fen", "ros", "gul"],
+    "suffixes": ["en", "il", "oth"],
+    "scarVerbs": ["drenched", "saturated"],
+    "scarConnectors": ["in", "through"],
+    "scarNouns": ["reeds", "moss"],
+    "soulWords": ["damp", "mud", "drift"],
+    "songSubjects": ["the reed-dancer", "the water-bound"],
+    "songActions": ["sways", "waits"],
+    "songObjects": ["in green murk", "under leaflight"]
+  }
+  

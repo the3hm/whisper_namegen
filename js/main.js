@@ -120,3 +120,101 @@ document.querySelectorAll('.egg-choice').forEach(egg => {
     });
   });
 });
+
+const locations = [
+  "ashland", "blightlands", "canyon", "cave", "city", "crystalcavern", "desert",
+  "fungal", "glacier", "grassland", "island", "jungle", "magmafield", "mountain",
+  "ocean", "permafrost", "plateau", "riverland", "ruins", "savannah", "swamp",
+  "tundra", "underworld", "wetland"
+];
+
+// Inject locations into modal
+const locationGrid = document.querySelector('.location-grid');
+if (locationGrid) {
+  locations.forEach(loc => {
+    const img = document.createElement('img');
+    img.src = `img/locations/${loc}.png`;
+    img.alt = loc;
+    img.title = loc.toUpperCase();
+    img.className = 'location-choice';
+    img.dataset.location = loc;
+    locationGrid.appendChild(img);
+  });
+}
+
+// Handle location click
+document.addEventListener('click', async e => {
+  if (e.target.classList.contains('location-choice')) {
+    const loc = e.target.dataset.location;
+    const url = `data/locations/${loc}.json`;
+
+    try {
+      const res = await fetch(url);
+      const data = await res.json();
+
+      // Append location data to existing arrays
+      prefixes.push(...data.prefixes || []);
+      cores.push(...data.cores || []);
+      suffixes.push(...data.suffixes || []);
+      scarVerbs.push(...data.scarVerbs || []);
+      scarConnectors.push(...data.scarConnectors || []);
+      scarNouns.push(...data.scarNouns || []);
+      soulWords.push(...data.soulWords || []);
+      songSubjects.push(...data.songSubjects || []);
+      songActions.push(...data.songActions || []);
+      songObjects.push(...data.songObjects || []);
+
+      console.log(`Location ${loc} added to generation pool.`);
+
+      generateName();
+
+      const modal = bootstrap.Modal.getInstance(document.getElementById('locationModal'));
+      modal.hide();
+    } catch (err) {
+      console.error(`Failed to load location data for ${loc}:`, err);
+    }
+  }
+});
+
+// When a location image is clicked, change the header icon and append data
+document.addEventListener('click', async e => {
+  if (e.target.classList.contains('location-choice')) {
+    const loc = e.target.dataset.location;
+    const url = `data/locations/${loc}.json`;
+
+    try {
+      const res = await fetch(url);
+      const data = await res.json();
+
+      // Append location data
+      prefixes.push(...(data.prefixes || []));
+      cores.push(...(data.cores || []));
+      suffixes.push(...(data.suffixes || []));
+      scarVerbs.push(...(data.scarVerbs || []));
+      scarConnectors.push(...(data.scarConnectors || []));
+      scarNouns.push(...(data.scarNouns || []));
+      soulWords.push(...(data.soulWords || []));
+      songSubjects.push(...(data.songSubjects || []));
+      songActions.push(...(data.songActions || []));
+      songObjects.push(...(data.songObjects || []));
+
+      // Change header icon
+      const locationIconHeader = document.getElementById('locationIconHeader');
+      if (locationIconHeader) {
+        locationIconHeader.src = `img/locations/${loc}.png`;
+        locationIconHeader.title = loc.toUpperCase(); // optional tooltip
+      }
+
+      console.log(`Location ${loc} selected and icon updated.`);
+      generateName();
+
+      // Close modal (Bootstrap 5)
+      const modal = bootstrap.Modal.getInstance(document.getElementById('locationModal'));
+      modal.hide();
+
+    } catch (err) {
+      console.error(`Failed to load location data for ${loc}:`, err);
+    }
+  }
+});
+

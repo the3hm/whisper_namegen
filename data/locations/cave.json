@@ -1,0 +1,12 @@
+{
+  "prefixes": ["dru", "grol", "mor"],
+  "cores": ["vek", "und", "zor"],
+  "suffixes": ["in", "oth", "ek"],
+  "scarVerbs": ["echoed", "carved"],
+  "scarConnectors": ["in", "by"],
+  "scarNouns": ["stone", "silence"],
+  "soulWords": ["deep", "dark", "hollow"],
+  "songSubjects": ["the echo-child", "the deep one"],
+  "songActions": ["hides", "chants"],
+  "songObjects": ["in eternal dark", "beneath the earth"]
+}

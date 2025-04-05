@@ -1,0 +1,13 @@
+{
+    "prefixes": ["sav", "lon", "pra"],
+    "cores": ["val", "zen", "rak"],
+    "suffixes": ["ar", "un", "is"],
+    "scarVerbs": ["bleached", "withered"],
+    "scarConnectors": ["beneath", "across"],
+    "scarNouns": ["sun", "grass"],
+    "soulWords": ["plain", "light", "haze"],
+    "songSubjects": ["the golden one", "the wind-runner"],
+    "songActions": ["runs", "glows"],
+    "songObjects": ["in heatwaves", "with open skies"]
+  }
+  

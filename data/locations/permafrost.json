@@ -1,0 +1,13 @@
+{
+    "prefixes": ["per", "froz", "niv"],
+    "cores": ["glan", "isk", "tund"],
+    "suffixes": ["oth", "en", "ur"],
+    "scarVerbs": ["entombed", "cracked"],
+    "scarConnectors": ["in", "by"],
+    "scarNouns": ["ice", "silence"],
+    "soulWords": ["still", "brittle", "white"],
+    "songSubjects": ["the frost-bound", "the sealed one"],
+    "songActions": ["waits", "glimmers"],
+    "songObjects": ["beneath frost", "in perfect stillness"]
+  }
+  

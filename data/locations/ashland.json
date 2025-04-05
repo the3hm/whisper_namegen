@@ -1,0 +1,13 @@
+{
+    "prefixes": ["ash", "scor", "veld"],
+    "cores": ["ka", "ther", "vak"],
+    "suffixes": ["ran", "ok", "eth"],
+    "scarVerbs": ["burned", "seared"],
+    "scarConnectors": ["by", "within"],
+    "scarNouns": ["embers", "cinders"],
+    "soulWords": ["ash", "coal", "dust"],
+    "songSubjects": ["the ash-born", "the flame-lost"],
+    "songActions": ["rises", "endures"],
+    "songObjects": ["beneath cinders", "in the soot"]
+  }
+  

@@ -1,0 +1,13 @@
+{
+    "prefixes": ["zun", "tal", "ver"],
+    "cores": ["kai", "ran", "zul"],
+    "suffixes": ["ya", "oth", "ek"],
+    "scarVerbs": ["strangled", "devoured"],
+    "scarConnectors": ["by", "through"],
+    "scarNouns": ["roots", "vines"],
+    "soulWords": ["wild", "growth", "bloom"],
+    "songSubjects": ["the green child", "the thorned one"],
+    "songActions": ["grows", "devours"],
+    "songObjects": ["amid ruin", "under canopy"]
+  }
+  

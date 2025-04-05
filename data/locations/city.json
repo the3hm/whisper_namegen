@@ -1,0 +1,13 @@
+{
+    "prefixes": ["mek", "urb", "zon"],
+    "cores": ["ten", "lex", "dom"],
+    "suffixes": ["ik", "en", "yx"],
+    "scarVerbs": ["forgotten", "etched"],
+    "scarConnectors": ["among", "within"],
+    "scarNouns": ["towers", "steel"],
+    "soulWords": ["neon", "wire", "code"],
+    "songSubjects": ["the stray spark", "the circuit child"],
+    "songActions": ["wanders", "watches"],
+    "songObjects": ["from above", "through shadowed streets"]
+  }
+  

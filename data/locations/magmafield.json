@@ -1,0 +1,13 @@
+{
+    "prefixes": ["ign", "mol", "khar"],
+    "cores": ["zor", "vak", "tor"],
+    "suffixes": ["ak", "un", "ar"],
+    "scarVerbs": ["burned", "forged"],
+    "scarConnectors": ["within", "from"],
+    "scarNouns": ["lava", "slag"],
+    "soulWords": ["ember", "core", "pulse"],
+    "songSubjects": ["the flame-born", "the scorched"],
+    "songActions": ["erupts", "smolders"],
+    "songObjects": ["in molten light", "beneath the crust"]
+  }
+  

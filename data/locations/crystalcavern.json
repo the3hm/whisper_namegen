@@ -1,0 +1,13 @@
+{
+    "prefixes": ["crys", "zel", "shar"],
+    "cores": ["lin", "vek", "ae"],
+    "suffixes": ["is", "en", "oth"],
+    "scarVerbs": ["fractured", "pierced"],
+    "scarConnectors": ["by", "with"],
+    "scarNouns": ["shards", "glow"],
+    "soulWords": ["gem", "echo", "glint"],
+    "songSubjects": ["the prism one", "the light-born"],
+    "songActions": ["shines", "splinters"],
+    "songObjects": ["across void", "in silence"]
+  }
+  

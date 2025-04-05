@@ -1,0 +1,13 @@
+{
+    "prefixes": ["neth", "umb", "vak"],
+    "cores": ["dol", "zor", "ket"],
+    "suffixes": ["oth", "un", "ir"],
+    "scarVerbs": ["buried", "haunted"],
+    "scarConnectors": ["beneath", "within"],
+    "scarNouns": ["bones", "shadows"],
+    "soulWords": ["void", "echo", "depth"],
+    "songSubjects": ["the forgotten", "the dead-walker"],
+    "songActions": ["roams", "hungers"],
+    "songObjects": ["in endless dark", "among roots"]
+  }
+  

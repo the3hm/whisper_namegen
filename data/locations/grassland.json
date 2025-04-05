@@ -1,0 +1,13 @@
+{
+    "prefixes": ["prae", "sel", "ver"],
+    "cores": ["linn", "sav", "ran"],
+    "suffixes": ["or", "il", "en"],
+    "scarVerbs": ["trampled", "swept"],
+    "scarConnectors": ["by", "through"],
+    "scarNouns": ["winds", "hoofbeats"],
+    "soulWords": ["tallgrass", "breeze", "meadow"],
+    "songSubjects": ["the free one", "the plains-walker"],
+    "songActions": ["runs", "bends"],
+    "songObjects": ["with wind", "in the golden light"]
+  }
+  

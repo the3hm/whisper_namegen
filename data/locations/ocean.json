@@ -1,0 +1,12 @@
+{
+  "prefixes": ["na", "thal", "sel"],
+  "cores": ["myr", "dren", "vel"],
+  "suffixes": ["os", "un", "eth"],
+  "scarVerbs": ["drowned", "washed"],
+  "scarConnectors": ["beneath", "by"],
+  "scarNouns": ["tide", "abyss"],
+  "soulWords": ["foam", "depth", "current"],
+  "songSubjects": ["the tide-born", "the deep one"],
+  "songActions": ["sings", "rises"],
+  "songObjects": ["with the swell", "beneath stars"]
+}

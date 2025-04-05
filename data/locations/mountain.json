@@ -1,0 +1,13 @@
+{
+    "prefixes": ["kar", "dur", "tal"],
+    "cores": ["mok", "run", "gor"],
+    "suffixes": ["en", "ak", "ur"],
+    "scarVerbs": ["carved", "echoed"],
+    "scarConnectors": ["upon", "within"],
+    "scarNouns": ["stone", "peak"],
+    "soulWords": ["ridge", "snow", "echo"],
+    "songSubjects": ["the high one", "the cliff-walker"],
+    "songActions": ["stands", "endures"],
+    "songObjects": ["above clouds", "beneath sky"]
+  }
+  

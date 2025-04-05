@@ -1,0 +1,13 @@
+{
+    "prefixes": ["myc", "spo", "gul"],
+    "cores": ["rak", "ven", "sho"],
+    "suffixes": ["ox", "eth", "us"],
+    "scarVerbs": ["infested", "veiled"],
+    "scarConnectors": ["in", "through"],
+    "scarNouns": ["spores", "mold"],
+    "soulWords": ["mushroom", "decay", "veil"],
+    "songSubjects": ["the growth", "the shrouded one"],
+    "songActions": ["spores", "whispers"],
+    "songObjects": ["in silence", "below canopy"]
+  }
+  

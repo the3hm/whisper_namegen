@@ -49,16 +49,16 @@
       
         <div class="icon-column">
           <button class="icon-button" data-bs-toggle="modal" data-bs-target="#locationModal">
-            <img src="img/icons/location.svg" alt="Location">
+            <img id="locationIconHeader" src="img/icons/location.svg" alt="Location">
           </button>
           <div class="icon-label">Location</div>
         </div>
       
         <div class="icon-column">
-          <button class="icon-button" data-bs-toggle="modal" data-bs-target="#cultureModal">
-            <img src="img/icons/culture.svg" alt="Culture">
+          <button class="icon-button" data-bs-toggle="modal" data-bs-target="#ethosModal">
+            <img src="img/icons/ethos.svg" alt="Ethos">
           </button>
-          <div class="icon-label">Culture</div>
+          <div class="icon-label">Ethos</div>
         </div>
       
         <div class="icon-column">
@@ -97,6 +97,23 @@
                 <img class="egg-choice" src="img/eggs/purple.svg" alt="Purple" title="With planning and subterfuge, I sneak." data-egg="purple">
                 <img class="egg-choice" src="img/eggs/orange.svg" alt="Orange" title="With trade and guile, I speak." data-egg="orange">
                 <img class="egg-choice" src="img/eggs/gold.svg" alt="Gold" title="With regret and shame, I fall." data-egg="gold">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Location Modal -->
+      <div class="modal fade" id="locationModal" tabindex="-1" aria-labelledby="locationModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header">
+              <h5 class="modal-title" id="locationModalLabel">Select a Location</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+              <div class="location-grid">
+                <!-- Location thumbnails -->
               </div>
             </div>
           </div>
