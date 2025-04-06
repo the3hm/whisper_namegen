@@ -1,0 +1,13 @@
+{
+    "prefixes": ["ser", "lia", "mel"],
+    "cores": ["lum", "rin", "vae"],
+    "suffixes": ["is", "in", "el"],
+    "scarVerbs": ["mended", "restored"],
+    "scarConnectors": ["with", "by"],
+    "scarNouns": ["touch", "balm"],
+    "soulWords": ["care", "light", "pulse"],
+    "songSubjects": ["the life-bringer", "the gentle flame"],
+    "songActions": ["heals", "soothes"],
+    "songObjects": ["wounds of spirit", "the broken shell"]
+  }
+  

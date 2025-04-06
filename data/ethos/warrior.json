@@ -1,0 +1,13 @@
+{
+    "prefixes": ["kar", "dra", "vek"],
+    "cores": ["tor", "zan", "krul"],
+    "suffixes": ["or", "ak", "eth"],
+    "scarVerbs": ["fought", "bled"],
+    "scarConnectors": ["for", "against"],
+    "scarNouns": ["enemy", "blade"],
+    "soulWords": ["steel", "rage", "honor"],
+    "songSubjects": ["the iron-blood", "the blade-dancer"],
+    "songActions": ["strikes", "stands"],
+    "songObjects": ["in war", "without fear"]
+  }
+  

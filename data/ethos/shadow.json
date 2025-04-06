@@ -1,0 +1,13 @@
+{
+    "prefixes": ["noct", "sil", "vex"],
+    "cores": ["lur", "zen", "dra"],
+    "suffixes": ["is", "ek", "yn"],
+    "scarVerbs": ["hid", "unseen"],
+    "scarConnectors": ["beneath", "within"],
+    "scarNouns": ["cloak", "secret"],
+    "soulWords": ["silence", "veil", "whisper"],
+    "songSubjects": ["the hidden one", "the unseen"],
+    "songActions": ["creeps", "listens"],
+    "songObjects": ["behind the veil", "in silence"]
+  }
+  

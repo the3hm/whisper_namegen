@@ -1,0 +1,13 @@
+{
+    "prefixes": ["trak", "vor", "hal"],
+    "cores": ["zin", "kar", "lun"],
+    "suffixes": ["or", "eth", "ok"],
+    "scarVerbs": ["tracked", "claimed"],
+    "scarConnectors": ["by", "with"],
+    "scarNouns": ["fang", "mark"],
+    "soulWords": ["pursuit", "kill", "claw"],
+    "songSubjects": ["the stalker", "the fang-walker"],
+    "songActions": ["hunts", "strikes"],
+    "songObjects": ["in silence", "under blood-moon"]
+  }
+  

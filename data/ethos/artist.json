@@ -1,0 +1,13 @@
+{
+    "prefixes": ["ael", "mar", "ven"],
+    "cores": ["rin", "lor", "kas"],
+    "suffixes": ["el", "an", "is"],
+    "scarVerbs": ["painted", "etched"],
+    "scarConnectors": ["with", "upon"],
+    "scarNouns": ["canvas", "ink"],
+    "soulWords": ["color", "vision", "shape"],
+    "songSubjects": ["the dream-carver", "the pigment soul"],
+    "songActions": ["sings", "creates"],
+    "songObjects": ["in spirals", "with unseen hues"]
+  }
+  

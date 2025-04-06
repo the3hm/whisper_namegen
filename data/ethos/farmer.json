@@ -1,0 +1,13 @@
+{
+    "prefixes": ["zem", "har", "kol"],
+    "cores": ["rak", "din", "mor"],
+    "suffixes": ["eth", "or", "an"],
+    "scarVerbs": ["sowed", "harvested"],
+    "scarConnectors": ["from", "within"],
+    "scarNouns": ["soil", "root"],
+    "soulWords": ["seed", "grain", "furrow"],
+    "songSubjects": ["the earth-keeper", "the crop-binder"],
+    "songActions": ["tends", "nurtures"],
+    "songObjects": ["with patience", "under sun"]
+  }
+  

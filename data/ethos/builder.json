@@ -1,0 +1,13 @@
+{
+    "prefixes": ["tor", "mak", "dur"],
+    "cores": ["lok", "gan", "rek"],
+    "suffixes": ["en", "ul", "or"],
+    "scarVerbs": ["raised", "shaped"],
+    "scarConnectors": ["by", "with"],
+    "scarNouns": ["stone", "plans"],
+    "soulWords": ["brick", "beam", "craft"],
+    "songSubjects": ["the wall-maker", "the groundlayer"],
+    "songActions": ["builds", "raises"],
+    "songObjects": ["in silence", "from ruins"]
+  }
+  

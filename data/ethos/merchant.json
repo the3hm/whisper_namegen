@@ -1,0 +1,13 @@
+{
+    "prefixes": ["baz", "tan", "sol"],
+    "cores": ["lek", "ver", "zin"],
+    "suffixes": ["os", "en", "il"],
+    "scarVerbs": ["bargained", "traded"],
+    "scarConnectors": ["for", "through"],
+    "scarNouns": ["coin", "deal"],
+    "soulWords": ["profit", "value", "weight"],
+    "songSubjects": ["the silver-tongue", "the wheeler"],
+    "songActions": ["sells", "exchanges"],
+    "songObjects": ["with charm", "beneath ledgers"]
+  }
+  

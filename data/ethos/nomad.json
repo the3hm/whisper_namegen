@@ -1,0 +1,13 @@
+{
+    "prefixes": ["rom", "zai", "dor"],
+    "cores": ["eth", "lun", "vak"],
+    "suffixes": ["or", "an", "is"],
+    "scarVerbs": ["drifted", "left"],
+    "scarConnectors": ["from", "into"],
+    "scarNouns": ["dust", "sky"],
+    "soulWords": ["journey", "tent", "wheel"],
+    "songSubjects": ["the wanderer", "the unbound"],
+    "songActions": ["moves", "leaves"],
+    "songObjects": ["without roots", "into elsewhere"]
+  }
+  

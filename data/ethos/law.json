@@ -1,0 +1,13 @@
+{
+    "prefixes": ["jur", "lex", "dom"],
+    "cores": ["tir", "vok", "re"],
+    "suffixes": ["us", "an", "ek"],
+    "scarVerbs": ["judged", "branded"],
+    "scarConnectors": ["by", "under"],
+    "scarNouns": ["oath", "decree"],
+    "soulWords": ["order", "scale", "word"],
+    "songSubjects": ["the voice of law", "the bound one"],
+    "songActions": ["declares", "commands"],
+    "songObjects": ["by old code", "through justice"]
+  }
+  

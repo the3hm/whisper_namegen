@@ -1,0 +1,13 @@
+{
+    "prefixes": ["hal", "san", "or"],
+    "cores": ["lum", "dom", "mir"],
+    "suffixes": ["iah", "os", "en"],
+    "scarVerbs": ["blessed", "sacrificed"],
+    "scarConnectors": ["in", "with"],
+    "scarNouns": ["prayer", "ritual"],
+    "soulWords": ["faith", "flame", "grace"],
+    "songSubjects": ["the speaker", "the voice of beyond"],
+    "songActions": ["prays", "offers"],
+    "songObjects": ["to the void", "in sacred light"]
+  }
+  

@@ -1,0 +1,13 @@
+{
+    "prefixes": ["sol", "dar", "ken"],
+    "cores": ["ven", "rin", "tek"],
+    "suffixes": ["os", "ar", "il"],
+    "scarVerbs": ["mapped", "crossed"],
+    "scarConnectors": ["across", "through"],
+    "scarNouns": ["distance", "horizon"],
+    "soulWords": ["trail", "map", "sign"],
+    "songSubjects": ["the way-seeker", "the horizon-born"],
+    "songActions": ["travels", "discovers"],
+    "songObjects": ["across stars", "beyond the veil"]
+  }
+  

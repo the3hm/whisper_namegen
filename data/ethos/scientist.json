@@ -1,0 +1,13 @@
+{
+    "prefixes": ["zen", "neu", "kal"],
+    "cores": ["rex", "lin", "tri"],
+    "suffixes": ["or", "on", "ek"],
+    "scarVerbs": ["calculated", "divined"],
+    "scarConnectors": ["through", "with"],
+    "scarNouns": ["formula", "logic"],
+    "soulWords": ["thought", "method", "query"],
+    "songSubjects": ["the mind-lit", "the logic-born"],
+    "songActions": ["calculates", "questions"],
+    "songObjects": ["through time", "within pattern"]
+  }
+  

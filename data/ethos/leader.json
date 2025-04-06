@@ -1,0 +1,13 @@
+{
+    "prefixes": ["val", "zor", "gen"],
+    "cores": ["rek", "dar", "sal"],
+    "suffixes": ["in", "ar", "os"],
+    "scarVerbs": ["led", "guided"],
+    "scarConnectors": ["for", "with"],
+    "scarNouns": ["cause", "banner"],
+    "soulWords": ["vision", "will", "voice"],
+    "songSubjects": ["the high one", "the flame-tongue"],
+    "songActions": ["commands", "guides"],
+    "songObjects": ["with resolve", "through fire"]
+  }
+  

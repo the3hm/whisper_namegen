@@ -1,0 +1,13 @@
+{
+    "prefixes": ["soph", "thal", "med"],
+    "cores": ["rin", "loq", "tem"],
+    "suffixes": ["os", "es", "in"],
+    "scarVerbs": ["pondered", "unfolded"],
+    "scarConnectors": ["through", "within"],
+    "scarNouns": ["question", "paradox"],
+    "soulWords": ["truth", "thought", "circle"],
+    "songSubjects": ["the thinker", "the idea-born"],
+    "songActions": ["contemplates", "asks"],
+    "songObjects": ["in silence", "through mystery"]
+  }
+  

@@ -56,10 +56,11 @@
       
         <div class="icon-column">
           <button class="icon-button" data-bs-toggle="modal" data-bs-target="#ethosModal">
-            <img src="img/icons/ethos.svg" alt="Ethos">
+            <img id="ethosIconHeader" src="img/icons/ethos.svg" alt="Ethos">
           </button>
           <div class="icon-label">Ethos</div>
         </div>
+        
       
         <div class="icon-column">
           <button class="icon-button" data-bs-toggle="modal" data-bs-target="#tomeModal">
@@ -119,6 +120,24 @@
           </div>
         </div>
       </div>
+
+      <!-- Ethos Modal -->
+      <div class="modal fade" id="ethosModal" tabindex="-1" aria-labelledby="ethosModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header">
+              <h5 class="modal-title" id="ethosModalLabel">Select an Ethos</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+              <div class="ethos-grid">
+                <!-- JS will insert ethos images here -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
 
       <div class="content-wrapper">
